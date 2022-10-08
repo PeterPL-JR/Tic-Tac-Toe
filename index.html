@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kółko i Krzyżyk</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <style>
+        div[style~="text-align:"] {
+            visibility: hidden;
+        }
+    </style>
+  </head>
+  <body onload="createBoard();">
+    <div id="writing">
+      <span style="color: #ababab">Round:</span> <b>Circle</b>
+    </div>
+    <div id="container"></div>
+    <div style="width: 220px; height: 60px; margin-left: auto; margin-right: auto; margin-top: 40px;">
+      <a href="index.html"><input type="button" onclick="playAgain();" value="Play Again" id="buttonAgain"></a>
+    </div>
+  </body>
+</html>
